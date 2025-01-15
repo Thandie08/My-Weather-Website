@@ -3,7 +3,7 @@ function displayTemperature(response) {
   let temperature = Math.round(response.data.temperature.current);
   let cityElement = document.querySelector("#current-city");
   let descriptionElement = document.querySelector("#weather-description");
-  let humidityElement = document.querySelector("#humidity");
+  let humidityElement = document.querySelector(".humidity");
   let windspeedElement = document.querySelector("#windspeed");
   let iconElement = document.querySelector("#icon");
 
